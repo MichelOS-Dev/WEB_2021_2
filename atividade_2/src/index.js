@@ -14,10 +14,14 @@ import Suguru from './components/questao03/imagens/Suguru.png';
 import Arena03 from './components/questao03/Arena'
 import Arena01 from './components/questao01/Arena'
 import World from './components/questao03/World';
+import Arena04 from './components/questao04/Arena'
+import Hero04 from './components/questao04/Hero'
+import Enemy04 from './components/questao04/Enemy'
 import Arena05 from './components/questao05/Arena'
 import Hero05 from './components/questao05/Hero'
 import Enemy05 from './components/questao05/Enemy'
 import World05 from './components/questao05/World'
+
 
 const root = document.getElementById('root')
                     //Questao 01
@@ -56,7 +60,21 @@ const root = document.getElementById('root')
   </div>
   ,root)   */
 
-            //Questão 05
+
+
+                        //QUESTÃO 04
+
+  /* ReactDOM.render(
+    <div>
+        <Arena04 arena = 'Tokio Dome – Underground Arena'>
+            <Hero04 name="Baki" imagem={Baki}/>
+            <Enemy04 name="Yujiro" imagem={Yujiro}/>
+        </Arena04>
+    </div>
+    ,root) */
+
+
+                              //Questão 05
     ReactDOM.render(
       <div>
         <World05>
